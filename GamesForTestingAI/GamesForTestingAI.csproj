@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPlayerTTT.cs" />
+    <Compile Include="PlayerTTTMiniMax.cs" />
+    <Compile Include="PlayerTTTRandom.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicTacToeBoard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
